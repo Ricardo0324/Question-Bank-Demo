@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/a_bank?useUnicode=true&characterEncoding=utf-8&serverTimezone=CTT&useSSL=false
+    username: root
+    password: 8203
+mybatis:
+  type-aliases-package: com.demo1.Entity
+  mapper-locations: classpath:/mapper/*.xml
